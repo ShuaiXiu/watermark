@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10px"
+            android:text="预览"
+            android:textColor="@color/Black" />
+
+        <TextView
+            android:id="@+id/Item_Color_Test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:gravity="center"
+            android:text="@string/color_test"
+            android:textColor="@color/Black"
+            android:textSize="45px" />
+        <ImageView
+            android:id="@+id/Item_Tips"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:src="@mipmap/tips"
+            android:paddingTop="15px"
+            android:paddingRight="15px"
+            android:layout_marginRight="20px"
+            android:layout_alignParentRight="true"
+            />
+    </com.zhy.autolayout.AutoRelativeLayout>
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Item_Color_red"
+            style="@style/ColorTextView"
+            android:text="@string/color_chi"
+            android:textColor="#f00" />
+
+        <TextView
+            android:id="@+id/Item_Color_orange"
+            style="@style/ColorTextView"
+            android:text="@string/color_orange"
+            android:textColor="#FF8000" />
+
+        <TextView
+            android:id="@+id/Item_Color_yellow"
+            style="@style/ColorTextView"
+            android:text="@string/color_yellow"
+            android:textColor="#FFFF00" />
+
+        <TextView
+            android:id="@+id/Item_Color_green"
+            style="@style/ColorTextView"
+            android:text="@string/color_green"
+                android:textColor="#0f0" />
+
+        <TextView
+            android:id="@+id/Item_Color_cyan"
+            style="@style/ColorTextView"
+            android:text="@string/color_cyan"
+            android:textColor="#0ff" />
+
+        <TextView
+            android:id="@+id/Item_Color_blue"
+            style="@style/ColorTextView"
+            android:text="@string/color_blue"
+            android:textColor="#00f" />
+
+        <TextView
+            android:id="@+id/Item_Color_purple"
+            style="@style/ColorTextView"
+            android:text="@string/color_purple"
+            android:textColor="#80f" />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15px"
+                android:gravity="center"
+                android:text="@string/color_trans" />
+
+            <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                android:id="@+id/Item_ColorSelect_Trans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:dsb_indicatorColor="#05f75e"
+                app:dsb_indicatorFormatter="%03d"
+                app:dsb_indicatorTextAppearance="?android:attr/textAppearanceSmall"
+                app:dsb_max="100"
+                app:dsb_min="0"
+                app:dsb_mirrorForRtl="false"
+                app:dsb_progressColor="#999999"
+                app:dsb_rippleColor="#fc1307"
+                app:dsb_trackColor="#440be2"
+                app:dsb_value="20" />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15px"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/color_red" />
+
+            <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                android:id="@+id/Item_ColorSelect_Red"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:dsb_indicatorColor="#05f75e"
+                app:dsb_indicatorFormatter="%03d"
+                app:dsb_indicatorTextAppearance="?android:attr/textAppearanceSmall"
+                app:dsb_max="100"
+                app:dsb_min="0"
+                app:dsb_mirrorForRtl="false"
+                app:dsb_progressColor="#999999"
+                app:dsb_rippleColor="#fc1307"
+                app:dsb_trackColor="#440be2"
+                app:dsb_value="20" />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15px"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/color_green" />
+
+            <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                android:id="@+id/Item_ColorSelect_Green"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:dsb_indicatorColor="#05f75e"
+                app:dsb_indicatorFormatter="%03d"
+                app:dsb_indicatorTextAppearance="?android:attr/textAppearanceSmall"
+                app:dsb_max="100"
+                app:dsb_min="0"
+                app:dsb_mirrorForRtl="false"
+                app:dsb_progressColor="#999999"
+                app:dsb_rippleColor="#fc1307"
+                app:dsb_trackColor="#440be2"
+                app:dsb_value="20" />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15px"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/color_blue" />
+
+            <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                android:id="@+id/Item_ColorSelect_Blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:dsb_indicatorColor="#05f75e"
+                app:dsb_indicatorFormatter="%03d"
+                app:dsb_indicatorTextAppearance="?android:attr/textAppearanceSmall"
+                app:dsb_max="100"
+                app:dsb_min="0"
+                app:dsb_mirrorForRtl="false"
+                app:dsb_progressColor="#999999"
+                app:dsb_rippleColor="#fc1307"
+                app:dsb_trackColor="#440be2"
+                app:dsb_value="20" />
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/Item_Color_LastSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:gravity="center"
+        android:textColor="@color/Black"
+        android:textSize="30px" />
+
+</com.zhy.autolayout.AutoLinearLayout>

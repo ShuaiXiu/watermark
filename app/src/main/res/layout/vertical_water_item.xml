@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:id="@+id/Vertical_water_Lin"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/Vertical_water_img"
+        style="@style/Water_Img"/>
+    <TextView
+        android:id="@+id/Vertical_water_msg"
+        android:layout_gravity="center_horizontal"
+        style="@style/Water_Text"/>
+</com.zhy.autolayout.AutoLinearLayout>

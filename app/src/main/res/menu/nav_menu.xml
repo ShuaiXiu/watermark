@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/mWidthHeight"
+            android:icon="@mipmap/width"
+            android:title="@string/menu_width_height" />
+        <item
+            android:id="@+id/addDiywater"
+            android:icon="@mipmap/diywater"
+            android:title="@string/menu_add_watermark" />
+        <item
+            android:id="@+id/mClearWater"
+            android:icon="@drawable/ic_photo_filter_black_24dp"
+            android:title="@string/menu_clear_diycache" />
+        <item
+            android:id="@+id/mClearSaveImg"
+            android:icon="@drawable/save_photo"
+            android:title="@string/menu_clear_imgcache" />
+        <item
+            android:id="@+id/mUpdataWel"
+            android:icon="@drawable/ic_select_all_black_24dp"
+            android:title="@string/menu_change_welcome" />
+        <item
+            android:id="@+id/mSetting"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/menu_settin" />
+    </group>
+</menu>

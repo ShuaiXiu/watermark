@@ -1,0 +1,138 @@
+<resources>
+    <!--主题-->
+    <string name="app_name">肖谷水印</string>
+    <string name="Introduce">水印吧，随时随地添加水印！</string>
+
+    <!--错误-->
+    <string name="ErrorNullLayout">未加载正确布局</string>
+    <string name="ErrorSelectManyImg">加载了多张图图片</string>
+
+    <!--修改文字还是图片-->
+    <string name="DialogTitle">选择</string>
+    <string name="DialogMessage_text">修改文字还是图片</string>
+    <string name="DialogMessage_color">修改文字还是颜色</string>
+    <string name="DialogText">文字</string>
+    <string name="DialogImage">图片</string>
+    <string name="ScyleType">图片或许不能填充屏幕，是否拉伸?</string>
+    <string name="OK">确定</string>
+    <string name="DialogColor">颜色</string>
+
+    <!--是否退出-->
+    <string name="isExit">是否退出</string>
+    <string name="isHavePhoto">是否放弃正在修改的图片</string>
+    <string name="Exit">退出</string>
+
+    <!--提示-->
+    <string name="ShouldAddImg">要先添加图片哦~</string>
+    <string name="AlreadyHavePhoto">已经有图片了</string>
+
+    <!--重新选择图片-->
+    <string name="updataPhoto">您确定要修改图片吗?</string>
+    <string name="updataMsg">您确定要抛弃奴家吗?</string>
+    <string name="Crueltomodify">狠心修改</string>
+    <string name="updataCancle">放她一命</string>
+
+    <string name="ClearSuccess">清理成功</string>
+    <string name="noSdCare">没有内存卡或内存不足 o(╥﹏╥)o</string>
+
+    <string name="SaveNull">官人是想保存什么呢？</string>
+
+    <!--侧边栏-->
+    <string name="menu_width_height">自定义水印的宽高</string>
+    <string name="menu_add_watermark">添加自定义水印</string>
+    <string name="menu_clear_diycache">清理自定义水印</string>
+    <string name="menu_clear_imgcache">清理保存的图片</string>
+    <string name="menu_change_welcome">修改欢迎图</string>
+    <string name="menu_settin">设置</string>
+
+    <!--修改宽高-->
+    <string name="UpdataWidghHeight">修改宽高</string>
+    <string name="Updata">修改</string>
+    <string name="Cancle">取消</string>
+    <string name="ShunDown">关闭</string>
+    <string name="NextTakeeffect">下次生效哦</string>
+    <string name="NextUpdate">下次自定义时生效哦</string>
+    <string name="NoCache">暂时没有图片哦</string>
+    <string name="DefaultWH">使用默认宽高</string>
+
+    <!--引导-->
+    <string name="guiding_slidingmenu">打开侧边框</string>
+    <string name="guiding_addphoto">添加本地图片</string>
+    <string name="guiding_save">保存图片</string>
+    <string name="guiding_frame">拖动拉开侧边框</string>
+    <string name="guiding_vertical">添加垂直水印</string>
+    <string name="guiding_horizontal">添加水平水印</string>
+    <string name="guiding_text">添加文字水印</string>
+    <string name="guiding_img">添加图片水印</string>
+
+    <string name="layout_updatawidhei_widght">宽</string>
+    <string name="layout_updatawidhei_height">高</string>
+
+    <!--颜色-->
+    <string name="color_trans">透明度</string>
+    <string name="color_red">红</string>
+    <string name="color_chi">赤</string>
+    <string name="color_orange">橙</string>
+    <string name="color_yellow">黄</string>
+    <string name="color_green">绿</string>
+    <string name="color_cyan">青</string>
+    <string name="color_blue">蓝</string>
+    <string name="color_purple">紫</string>
+    <string name="color_test">ARGB自己配色呦~</string>
+    <string name="color_Tips">小贴士</string>
+    <string name="color_msg">    利用三原色(ARGB)可以搭配所有的颜色，如：黑色( 255 , 0 , 0 , 0),白色( 255 , 255 , 255 , 255),还可以改变透明度,就看你自己的创造力了！\n    科普:A:Alpha,透明度、R:red，红色、G:green,绿色，B:blue，蓝色。</string>
+
+    <!--设置-->
+    <string name="Setting_aboutme">关于作者</string>
+    <string name="Setting_userMethod">使用需知</string>
+    <string name="Setting_aboutVersion">关于版本</string>
+    <string name="Setting_copyright">坐怀灬不乱</string>
+    <string name="Latest_Version">您已是最新版本</string>
+    <string name="userMethod">  水印图片长按可以删除，ARGB自己可以自己调色，自定义水印请不要裁剪大图，否则会卡顿。暂时未做图片缩放等一系列构想功能，如果下载量多会后续更新！</string>
+    <string name="UpdataColor">修改颜色</string>
+    <string name="About_message">  个人开发，实属不易，请少吐槽，若有意见或者漏洞请发至1319272764@qq.com邮箱。\n  若有土豪觉得做得不错要打赏，附在下某宝:15664285312（来者不拒）。\n  多谢下载，你的支持将是我前进的动力。</string>
+
+
+    <string name="NoRemind">您选择了不再提醒，可以在设置里面重新开启！</string>
+    <string name="noNormal">发生了诡异事件，请重启应用后重试！</string>
+
+    <string-array name="photoItem">
+        <item>a0</item>
+        <item>a1</item>
+        <item>a2</item>
+        <item>a3</item>
+        <item>a4</item>
+        <item>a5</item>
+        <item>a6</item>
+        <item>a7</item>
+        <item>a8</item>
+        <item>a9</item>
+        <item>a10</item>
+        <item>a11</item>
+        <item>a12</item>
+        <item>a13</item>
+        <item>a14</item>
+        <item>a15</item>
+        <item>a16</item>
+        <item>a17</item>
+        <item>a18</item>
+        <item>a19</item>
+        <item>a20</item>
+        <item>a21</item>
+        <item>a22</item>
+        <item>a23</item>
+        <item>a24</item>
+        <item>a25</item>
+        <item>a26</item>
+        <item>a30</item>
+        <item>a31</item>
+        <item>a32</item>
+        <!--<item>a27</item>-->
+        <!--<item>a28</item>-->
+        <!--<item>a29</item>-->
+        <!--<item>a30</item>-->
+        <!--<item>a31</item>-->
+        <!--<item>a32</item>-->
+    </string-array>
+
+</resources>

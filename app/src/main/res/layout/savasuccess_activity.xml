@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/SaveSuccess_Drawlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SaveSuccessActivity">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="90px">
+
+            <ImageView
+                android:id="@+id/SaveSuccess_OpenMenu"
+                android:layout_width="70px"
+                android:layout_height="70px"
+                android:layout_marginLeft="15px"
+                android:layout_marginTop="10px"
+                android:src="@mipmap/black_menu" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="90px"
+                android:background="#5f00"
+                android:gravity="center"
+                android:text="保存成功"
+                android:textColor="@color/White"
+                android:textSize="50px" />
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/SaveSuccess_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:gravity="center"
+                android:text="保存成功"
+                android:textSize="35px" />
+
+            <TextView
+                android:id="@+id/SaveSuccess_Share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:gravity="center"
+                android:text="点我分享哦~" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_marginTop="15px"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/SaveSuccess_Img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal" />
+            </ScrollView>
+        </com.zhy.autolayout.AutoLinearLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/SaveSuccess_Navigation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_menu" />
+</android.support.v4.widget.DrawerLayout>

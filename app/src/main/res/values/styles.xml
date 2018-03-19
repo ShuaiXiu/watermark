@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Water_Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:text">@string/app_name</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Water_Img">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:src">@mipmap/a1</item>
+    </style>
+
+    <!--Dialog的样式-->
+    <style name="CustomDialog" parent="Theme.AppCompat.Dialog">
+
+        <item name="android:backgroundDimEnabled">false</item><!--true 屏幕变暗-->
+        <item name="android:windowBackground">@android:color/transparent</item><!-- 背景透明 -->
+    </style>
+    <style name="ColorTextView">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">45px</item>
+
+    </style>
+</resources>
